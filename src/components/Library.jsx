@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 const Library = () => {
   return (
@@ -14,6 +14,8 @@ const Library = () => {
       <ul className='m-3 list-none'>
         <li className='list-item'><Link to="/Library/3">Book 3</Link></li>
       </ul>
+      <hr  /><hr /><hr />
+<Outlet/>       
     </div>
   )
 }
