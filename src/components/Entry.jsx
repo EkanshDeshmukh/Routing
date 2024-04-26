@@ -8,8 +8,8 @@ const Entry = () => {
 
   }
   return (
-    <div className='mt-10'>
-      <button onClick={submitHandler} className='p-5 py-3 rounded bg-red-300 text-white'>Submit</button>
+    <div className='mt-5'>
+      <button onClick={submitHandler} className='px-5 py-3 rounded bg-red-300 text-white'>Submit</button>
     </div>
   )
 }
