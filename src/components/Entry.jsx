@@ -27,7 +27,7 @@ const Entry = () => {
       <button onClick={submitHandler} className='px-5 py-3 rounded bg-red-300 m-5 text-white'>Submit</button>
       {images.map((image, i) => (
         <div key={i}>
-          <img src={image.download_url} alt="" />
+          <img className='w-64 h-64 flex flex-wrap ' src={image.download_url} alt="" />
           <small>{image.author}</small>
         </div>
       ))}
